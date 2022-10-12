@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T18:20:30.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="c0lukz_khu9Zk7bg8rZ1" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-12T19:14:57.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="YoFHaFmGhkV-9qryuxrY" version="20.3.0" type="github" pages="2">
   <diagram id="TPENyL1PqHB1mEwDDJag" name="Num on right">
     <mxGraphModel dx="1873" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1216,7 +1216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Num on left" id="tgHKnWKNR5IwhzXgzOJd">
-    <mxGraphModel dx="1579" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1579" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-0" />
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-1" parent="9ULFMDY2fStZsvk9T7Fu-0" />
@@ -1472,7 +1472,7 @@
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-85" value="Pag&lt;br&gt;up" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="518" y="665" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ULFMDY2fStZsvk9T7Fu-86" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 32px;&quot;&gt;↑&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
+        <mxCell id="9ULFMDY2fStZsvk9T7Fu-86" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 16px;&quot;&gt;↑&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="558" y="650" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-87" value="Pag&lt;br&gt;down" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
@@ -1484,13 +1484,13 @@
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-89" value="end" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="478" y="713" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ULFMDY2fStZsvk9T7Fu-90" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 32px;&quot;&gt;←&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
+        <mxCell id="9ULFMDY2fStZsvk9T7Fu-90" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 16px;&quot;&gt;←&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="518" y="705" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ULFMDY2fStZsvk9T7Fu-91" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 32px;&quot;&gt;↓&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
+        <mxCell id="9ULFMDY2fStZsvk9T7Fu-91" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 16px;&quot;&gt;↓&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="558" y="690" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ULFMDY2fStZsvk9T7Fu-92" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 32px;&quot;&gt;→&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
+        <mxCell id="9ULFMDY2fStZsvk9T7Fu-92" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 16px;&quot;&gt;→&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="598" y="705" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-93" value="vol+" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
@@ -2270,7 +2270,7 @@
         <mxCell id="9ULFMDY2fStZsvk9T7Fu-392" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=-30;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="450" y="817" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ULFMDY2fStZsvk9T7Fu-393" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;Ext&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=15;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#333333;fillColor=#60A917;strokeColor=#2D7600;rounded=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
+        <mxCell id="9ULFMDY2fStZsvk9T7Fu-393" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=15;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#333333;fillColor=#383E47;strokeColor=#F0F0F0;rounded=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="9ULFMDY2fStZsvk9T7Fu-1">
           <mxGeometry x="290" y="799" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rjZvUgS6F9Pmvawn_vB0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeColor=#6C8EBF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="9ULFMDY2fStZsvk9T7Fu-1" source="9ULFMDY2fStZsvk9T7Fu-365">
