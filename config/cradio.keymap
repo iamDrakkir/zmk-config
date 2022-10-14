@@ -83,7 +83,7 @@
           bindings = <
           &kp DQT    &kp AT     &kp EXCL   &kp PLUS   &kp NON_US_BSLH  &kp LPAR   &kp RPAR   &kp UNDER  &kp QMARK  &kp NUM_0
           &kp SQT    &kp AMPS   &kp STAR   &kp GRAVE  &kp LBKT         &kp MINUS  &kp TILDE2 &kp EQL    &kp PIPE   &kp NUM_1
-          &kp PRCNT  &kp HASH   &kp CARET  &kp DLLR   &kp RBKT         &kp LBRC   &kp RBRCH  &kp GT     &kp LT     &kp NUM_2
+          &kp PRCNT  &kp HASH   &kp CARET  &kp DLLR   &kp RBKT         &kp LBRC   &kp RBRC   &kp GT     &kp LT     &kp NUM_2
                                            &kp FSLH   &kp SPC          &trans     &kp NUM_2
           >;
       };
