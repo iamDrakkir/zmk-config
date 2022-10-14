@@ -100,7 +100,7 @@
       number_layer {
           bindings = <
           &kp NUM_1    &kp NUM_2     &kp NUM_3     &kp NUM_4     &kp NUM_5       &kp NUM_6    &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0
-          &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt SEL 4       &trans       &kp NUM_4  &kp NUM_5  &kp NUM_6  &trans
+          &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans       &kp NUM_4  &kp NUM_5  &kp NUM_6  &trans
           &bt BT_CLR   &trans        &out OUT_TOG  &trans        &bootloader     &bootloader  &kp NUM_1  &kp NUM_2  &kp NUM_3  &KP ENTER
                                                    &trans        &kp SPC         &trans       &kp NUM_0
           >;
