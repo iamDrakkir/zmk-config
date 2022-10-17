@@ -13,7 +13,6 @@
 #define SE_AE    SEMI        // Å
 #define SE_AA    SQT         // Ä
 #define SE_OO    LBKT        // Ö
-#define SE_PIPE  RA(EQUAL)   // |
 #define SE_EXCL  LS(N1)      // !
 #define SE_AT    RA(N2)      // @
 #define SE_HASH  LS(N3)      // #
@@ -37,7 +36,8 @@
 #define SE_DQT   LS(N2)      // "
 #define SE_SQT   BSLH        // '
 #define SE_GRAVE PLUS        // ´
-#define SE_TILDE RA(BSLH)    // ~
+#define SE_TILDE RA(RBRC)    // ~
+#define SE_PIPE  RA(SE_LBKT) // |
 #define SE_LT    NON_US_BACKSLASH     // <
 #define SE_GT    LS(NON_US_BACKSLASH) // >
 #define SE_BSLH  RA(NON_US_BACKSLASH) // \
@@ -121,7 +121,7 @@
             bindings = <
             &kp SE_DQT    &kp SE_AT    &kp SE_EXCL   &kp SE_PLUS   &kp SE_BSLH   &kp SE_LPAR   &kp SE_RPAR   &kp SE_UNDER  &kp SE_QMARK  &kp SE_AE
             &kp SE_SQT    &kp SE_AMPS  &kp SE_STAR   &kp SE_GRAVE  &kp SE_LBKT   &kp SE_DASH   &kp SE_TILDE  &kp SE_EQUAL  &kp SE_PIPE   &kp SE_AA
-            &kp SE_PRCNT  &kp SE_HASH  &kp SE_CARET  &kp SE_DLLR   &kp SE_RBKT   &kp SE_LBRC   &kp SE_RBRC   &kp SE_GT     &kp SE_LT     &kp SE_OO
+            &kp SE_PRCNT  &kp SE_HASH  &kp SE_CARET  &kp SE_DLLR   &kp SE_RBKT   &kp SE_LBRC   &kp SE_RBRC   &kp SE_LT     &kp SE_GT     &kp SE_OO
                                                      &kp SE_FSLH   &kp SPACE     &trans        &kp N2
             >;
         };
