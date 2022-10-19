@@ -10,9 +10,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Swedish definitions 
-#define SE_AE    SEMI        // Å
+#define SE_AE    LBKT        // Å
 #define SE_AA    SQT         // Ä
-#define SE_OO    LBKT        // Ö
+#define SE_OO    SEMI        // Ö
 #define SE_EXCL  LS(N1)      // !
 #define SE_AT    RA(N2)      // @
 #define SE_HASH  LS(N3)      // #
@@ -37,10 +37,11 @@
 #define SE_SQT   BSLH        // '
 #define SE_GRAVE PLUS        // ´
 #define SE_TILDE RA(RBKT)    // ~
-#define SE_LT    NON_US_BACKSLASH     // <
+#define SE_LT    NON_US_BACKSLASH // <
 #define SE_GT    LS(SE_LT)   // >
 #define SE_PIPE  RA(SE_LT)   // |
-#define SE_BSLH  RA(NON_US_BACKSLASH) // \
+#define SE_BSLH  RA(SE_PLUS) // \
+
 
 #define DEFAULT     0
 #define SYMBOLS_ENG 1
