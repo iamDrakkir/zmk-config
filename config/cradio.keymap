@@ -36,11 +36,11 @@
 #define SE_DQT   LS(N2)      // "
 #define SE_SQT   BSLH        // '
 #define SE_GRAVE PLUS        // ´
-#define SE_TILDE RA(SE_RBKT) // ~
+#define SE_TILDE RA(RBKT)    // ~
 #define SE_LT    NON_US_BACKSLASH     // <
 #define SE_GT    LS(NON_US_BACKSLASH) // >
 #define SE_BSLH  RA(NON_US_BACKSLASH) // \
-#define SE_PIPE  RA(SE_GT)   // |
+#define SE_PIPE  SE_GT      // |
 
 #define DEFAULT     0
 #define SYMBOLS_ENG 1
