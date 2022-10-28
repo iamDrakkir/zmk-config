@@ -1,2 +1,2 @@
 # zmk-config
-![image](https://user-images.githubusercontent.com/38097580/198023413-818140a4-00c5-47fa-b8c6-b5a9f2dc3f8a.png)
+![image](https://user-images.githubusercontent.com/38097580/198718088-04180249-dbd3-43bd-9f83-a80852d99476.png)
