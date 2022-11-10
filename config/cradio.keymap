@@ -141,7 +141,7 @@
             &kp DQT       &kp AT         &kp EXCL         &kp PLUS         &kp BSLH    &kp LPAR   &kp RPAR          &kp UNDER         &kp QMARK      &kp N0
             &hm LGUI SQT  &hm LALT AMPS  &hm LSHIFT STAR  &hm LCTRL GRAVE  &kp LBKT    &kp MINUS  &hm RCTRL TILDE2  &hm RSHIFT EQUAL  &hm RALT PIPE  &hm RGUI N1
             &kp PRCNT     &kp HASH       &kp CARET        &kp DLLR         &kp RBKT    &kp LBRC   &kp RBRC          &kp GT            &kp LT         &kp N2
-                                                          &kp FSLH         &kp SPACE   &trans     &kp N2
+                                                          &kp FSLH         &kp SPACE   &trans     &trans
             >;
         };
 
@@ -150,7 +150,7 @@
             &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH   &kp SE_LPAR  &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &kp SE_AE
             &hm LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_LBKT   &kp SE_DASH  &hm RCTRL SE_TILDE  &hm RSHIFT SE_EQUAL  &hm RALT SE_PIPE  &hm RGUI SE_AA
             &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_RBKT   &kp SE_LBRC  &kp SE_RBRC         &kp SE_LT            &kp SE_GT         &kp SE_OO
-                                                                   &kp SE_FSLH         &kp SPACE     &trans       &kp N2
+                                                                   &kp SE_FSLH         &kp SPACE     &trans       &trans
             >;
         };
 
@@ -159,7 +159,7 @@
             &kp TAB   &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
             &kp ESC   &kp F5  &kp F6   &kp F7   &kp F8     &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &kp K_VOL_UP
             &kp CAPS  &kp F9  &kp F10  &kp F10  &kp F12    &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp K_MUTE  &kp K_VOL_DN
-                                       &kp N3   &kp SPACE  &kp N3      &trans
+                                       &kp N3   &kp SPACE  &trans      &trans
             >;
         };
 
