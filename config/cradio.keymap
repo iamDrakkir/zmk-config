@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-// Swedish definitions 
+// Swedish definitions
 #define SE_AE    LBKT        // Å
 #define SE_AA    SQT         // Ä
 #define SE_OO    SEMI        // Ö
@@ -62,7 +62,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    }; 
+    };
     cond_layers {
         compatible = "zmk,conditional-layers";
         // Define SETTINGS layer as tri-state
@@ -165,10 +165,10 @@
 
         number_layer {
             bindings = <
-            &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-            &trans  &trans  &trans  &trans  &trans      &trans  &kp N4  &kp N5  &kp N6  &trans
-            &trans  &trans  &trans  &trans  &trans      &trans  &kp N1  &kp N2  &kp N3  &trans
-                                    &trans  &kp SPACE   &kp N0  &kp N0
+            &kp N1    &kp N2    &kp N3      &kp N4     &kp N5     &kp N6  &kp N7        &kp N8         &kp N9       &kp N0
+            &hm LGUI  &hm LALT  &hm LSHIFT  &hm LCTRL  &trans     &trans  &hm RCTRL N4  &hm RSHIFT N5  &hm RALT N6  &hm RGUI
+            &trans    &trans    &trans      &trans     &trans     &trans  &kp N1        &kp N2         &kp N3       &trans
+                                            &trans     &kp SPACE  &kp N0  &kp N0
             >;
         };
 
