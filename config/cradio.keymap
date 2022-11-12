@@ -148,6 +148,15 @@
             >;
         };
 
+        symbols_eng_layer {
+            bindings = <
+            &kp DQT       &kp AT         &kp EXCL         &kp PLUS         &kp BSLH    &kp LPAR   &kp RPAR          &kp UNDER         &kp QMARK      &kp N0
+            &hs LGUI SQT  &hm LALT AMPS  &hm LSHIFT STAR  &hm LCTRL GRAVE  &kp LBKT    &kp MINUS  &hm RCTRL TILDE2  &hm RSHIFT EQUAL  &hm RALT PIPE  &hs RGUI N1
+            &kp PRCNT     &kp HASH       &kp CARET        &kp DLLR         &kp RBKT    &kp LBRC   &kp RBRC          &kp GT            &kp LT         &kp N2
+                                                          &kp FSLH         &kp SPACE   &trans     &trans
+            >;
+        };
+
         symbols_swe_layer {
             bindings = <
             &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH   &kp SE_LPAR  &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &kp SE_AE
