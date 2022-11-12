@@ -62,7 +62,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    };
     cond_layers {
         compatible = "zmk,conditional-layers";
         // Define SETTINGS layer as tri-state
@@ -114,7 +113,7 @@
             &kp Q       &kp W       &kp F         &kp P           &kp B       &kp J               &kp L         &kp U         &kp Y       &kp BSPC
             &hm LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G       &kp M               &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hm RGUI O
             &kp Z       &kp X       &kp C         &kp D           &kp V       &kp K               &kp H         &kp COMMA     &kp DOT     &kp ENTER
-                                                  &hm NUMBER TAB  &kp SPACE   &hm SYMBOLS_SWE DEL &hm FUNC ESC
+                                                  &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE DEL &lt FUNC ESC
             >;
         };
 
