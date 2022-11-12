@@ -62,6 +62,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+    };
     cond_layers {
         compatible = "zmk,conditional-layers";
         // Define SETTINGS layer as tri-state
