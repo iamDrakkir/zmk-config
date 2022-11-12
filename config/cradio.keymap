@@ -62,6 +62,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        hs: homerow_mods_slow {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_SLOW";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
     cond_layers {
         compatible = "zmk,conditional-layers";
@@ -112,7 +121,7 @@
         default_layer {
             bindings = <
             &kp Q       &kp W       &kp F         &kp P        &kp B       &kp J            &kp L         &kp U         &kp Y       &kp BSPC
-            &hm LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T  &kp G       &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hm RGUI O
+            &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T  &kp G       &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
             &kp Z       &kp X       &kp C         &kp D        &kp V       &kp K            &kp H         &kp COMMA     &kp DOT     &kp ENTER
                                                   &mo NUMBER   &kp SPACE   &mo SYMBOLS_SWE  &mo FUNC
             >;
@@ -121,7 +130,7 @@
         qwerty_layer {
             bindings = <
             &kp Q       &kp W       &kp E         &kp R        &kp T       &kp Y            &kp U         &kp I         &kp O       &kp P
-            &hm LGUI A  &hm LALT S  &hm LSHIFT D  &hm LCTRL F  &kp G       &kp H            &hm RCTRL J   &hm RSHIFT J  &hm RALT L  &hm RGUI BSPC
+            &hs LGUI A  &hm LALT S  &hm LSHIFT D  &hm LCTRL F  &kp G       &kp H            &hm RCTRL J   &hm RSHIFT J  &hm RALT L  &hs RGUI BSPC
             &kp Z       &kp X       &kp C         &kp V        &kp B       &kp N            &kp M         &kp COMMA     &kp DOT     &kp ENTER
                                                   &mo NUMBER   &kp SPACE   &mo SYMBOLS_SWE  &mo FUNC
             >;
@@ -129,17 +138,17 @@
 
         gaming_layer {
             bindings = <
-            &kp N1  &kp N2  &kp N3  &kp N4   &kp N5      &kp J            &kp L         &kp U         &kp Y       &kp BSPC
-            &kp Q   &kp W   &kp F   &kp P    &kp B       &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hm RGUI O
-            &kp A   &kp R   &kp S   &kp T    &kp G       &kp M            &kp N         &kp E         &kp I       &kp O
-                                 &mo NUMBER  &kp SPACE   &mo SYMBOLS_SWE  &mo FUNC
+            &kp N1  &kp N2  &kp N3  &kp N4      &kp N5     &kp J            &kp L         &kp U         &kp Y       &kp BSPC
+            &kp Q   &kp W   &kp F   &kp P       &kp B      &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
+            &kp A   &kp R   &kp S   &kp T       &kp G      &kp M            &kp N         &kp E         &kp I       &kp O
+                                    &mo NUMBER  &kp SPACE  &mo SYMBOLS_SWE  &mo FUNC
             >;
         };
 
         symbols_eng_layer {
             bindings = <
             &kp DQT       &kp AT         &kp EXCL         &kp PLUS         &kp BSLH    &kp LPAR   &kp RPAR          &kp UNDER         &kp QMARK      &kp N0
-            &hm LGUI SQT  &hm LALT AMPS  &hm LSHIFT STAR  &hm LCTRL GRAVE  &kp LBKT    &kp MINUS  &hm RCTRL TILDE2  &hm RSHIFT EQUAL  &hm RALT PIPE  &hm RGUI N1
+            &hs LGUI SQT  &hm LALT AMPS  &hm LSHIFT STAR  &hm LCTRL GRAVE  &kp LBKT    &kp MINUS  &hm RCTRL TILDE2  &hm RSHIFT EQUAL  &hm RALT PIPE  &hs RGUI N1
             &kp PRCNT     &kp HASH       &kp CARET        &kp DLLR         &kp RBKT    &kp LBRC   &kp RBRC          &kp GT            &kp LT         &kp N2
                                                           &kp FSLH         &kp SPACE   &trans     &trans
             >;
@@ -148,7 +157,7 @@
         symbols_swe_layer {
             bindings = <
             &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH   &kp SE_LPAR  &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &kp SE_AE
-            &hm LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_LBKT   &kp SE_DASH  &hm RCTRL SE_TILDE  &hm RSHIFT SE_EQUAL  &hm RALT SE_PIPE  &hm RGUI SE_AA
+            &hs LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_LBKT   &kp SE_DASH  &hm RCTRL SE_TILDE  &hm RSHIFT SE_EQUAL  &hm RALT SE_PIPE  &hs RGUI SE_AA
             &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_RBKT   &kp SE_LBRC  &kp SE_RBRC         &kp SE_LT            &kp SE_GT         &kp SE_OO
                                                                    &kp SE_FSLH         &kp SPACE     &trans       &trans
             >;
