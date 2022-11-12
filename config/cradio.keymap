@@ -120,10 +120,11 @@
 
         default_layer {
             bindings = <
-            &kp Q       &kp W       &kp F         &kp P        &kp B       &kp J            &kp L         &kp U         &kp Y       &kp BSPC
-            &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T  &kp G       &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
-            &kp Z       &kp X       &kp C         &kp D        &kp V       &kp K            &kp H         &kp COMMA     &kp DOT     &kp ENTER
-                                                  &mo NUMBER   &kp SPACE   &mo SYMBOLS_SWE  &mo FUNC
+            &kp Q       &kp W       &kp F         &kp P           &kp B       &kp J               &kp L         &kp U         &kp Y       &kp BSPC
+            &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G       &kp M               &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
+            &kp Z       &kp X       &kp C         &kp D           &kp V       &kp K               &kp H         &kp COMMA     &kp DOT     &kp ENTER
+                                                  &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE DEL &lt FUNC ESC
+                                                  &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE DEL &lt FUNC ESC
             >;
         };
 
@@ -138,18 +139,11 @@
 
         gaming_layer {
             bindings = <
-            &kp N1  &kp N2  &kp N3  &kp N4      &kp N5     &kp J            &kp L         &kp U         &kp Y       &kp BSPC
-            &kp Q   &kp W   &kp F   &kp P       &kp B      &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
-            &kp A   &kp R   &kp S   &kp T       &kp G      &kp M            &kp N         &kp E         &kp I       &kp O
-                                    &mo NUMBER  &kp SPACE  &mo SYMBOLS_SWE  &mo FUNC
-            >;
-        };
-
-        symbols_eng_layer {
-            bindings = <
-            &kp DQT       &kp AT         &kp EXCL         &kp PLUS         &kp BSLH    &kp LPAR   &kp RPAR          &kp UNDER         &kp QMARK      &kp N0
-            &hs LGUI SQT  &hm LALT AMPS  &hm LSHIFT STAR  &hm LCTRL GRAVE  &kp LBKT    &kp MINUS  &hm RCTRL TILDE2  &hm RSHIFT EQUAL  &hm RALT PIPE  &hs RGUI N1
-            &kp PRCNT     &kp HASH       &kp CARET        &kp DLLR         &kp RBKT    &kp LBRC   &kp RBRC          &kp GT            &kp LT         &kp N2
+            &kp N1  &kp N2  &kp N3  &kp N4   &kp N5      &kp J            &kp L         &kp U         &kp Y       &kp BSPC
+            &kp N1  &kp N2  &kp N3  &kp N4   &kp N5      &kp J            &kp L         &kp U         &kp Y       &kp BSPC
+            &kp Q   &kp W   &kp F   &kp P    &kp B       &kp M            &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hm RGUI O
+            &kp A   &kp R   &kp S   &kp T    &kp G       &kp M            &kp N         &kp E         &kp I       &kp O
+                                 &mo NUMBER  &kp SPACE   &mo SYMBOLS_SWE  &mo FUNC
                                                           &kp FSLH         &kp SPACE   &trans     &trans
             >;
         };
