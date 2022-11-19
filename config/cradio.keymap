@@ -120,20 +120,20 @@
 
         default_layer {
             bindings = <
-            &kp Q       &kp W       &kp F         &kp P           &kp B       &kp J               &kp L         &kp U         &kp Y       &kp BSPC
-            &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G       &kp M               &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
-            &kp Z       &kp X       &kp C         &kp D           &kp V       &kp K               &kp H         &kp COMMA     &kp DOT     &kp ENTER
-                                                  &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE DEL &lt FUNC ESC
+            &kp Q       &kp W       &kp F         &kp P           &kp B       &kp J                 &kp L         &kp U         &kp Y       &kp DEL
+            &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G       &kp M                 &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O
+            &kp Z       &kp X       &kp C         &kp D           &kp V       &kp K                 &kp H         &kp COMMA     &kp DOT     &kp ENTER
+                                                  &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
 
             >;
         };
 
         qwerty_layer {
             bindings = <
-            &kp Q       &kp W       &kp E         &kp R        &kp T       &kp Y            &kp U         &kp I         &kp O       &kp P
-            &hs LGUI A  &hm LALT S  &hm LSHIFT D  &hm LCTRL F  &kp G       &kp H            &hm RCTRL J   &hm RSHIFT J  &hm RALT L  &hs RGUI BSPC
-            &kp Z       &kp X       &kp C         &kp V        &kp B       &kp N            &kp M         &kp COMMA     &kp DOT     &kp ENTER
-                                                  &mo NUMBER   &kp SPACE   &mo SYMBOLS_SWE  &mo FUNC
+            &kp Q       &kp W       &kp E         &kp R           &kp T       &kp Y                 &kp U         &kp I         &kp O       &kp P
+            &hs LGUI A  &hm LALT S  &hm LSHIFT D  &hm LCTRL F     &kp G       &kp H                 &hm RCTRL J   &hm RSHIFT J  &hm RALT L  &hs RGUI BSPC
+            &kp Z       &kp X       &kp C         &kp V           &kp B       &kp N                 &kp M         &kp COMMA     &kp DOT     &kp ENTER
+                                                  &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
             >;
         };
 
@@ -166,8 +166,8 @@
 
         func_layer {
             bindings = <
-            &kp TAB   &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
-            &kp ESC   &kp F5  &kp F6   &kp F7   &kp F8     &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &kp K_VOL_UP
+            &kp ESC   &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
+            &kp TAB   &kp F5  &kp F6   &kp F7   &kp F8     &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &kp K_VOL_UP
             &kp CAPS  &kp F9  &kp F10  &kp F10  &kp F12    &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp K_MUTE  &kp K_VOL_DN
                                        &kp N3   &kp SPACE  &trans      &trans
             >;
