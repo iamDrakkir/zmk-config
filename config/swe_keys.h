@@ -75,6 +75,6 @@
 #define SE_TILDE RA(RBKT)    // ~
 #define SE_LT    NON_US_BACKSLASH // <
 #define SE_GT    LS(SE_LT)   // >
-#define SE_BSLH  RA(SE_PLUS) // \
+#define SE_BSLH  RA(SE_PLUS) // (backslash)
 #define SE_PIPE  RA(SE_LT)   // |
 
