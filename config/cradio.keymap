@@ -145,7 +145,7 @@
             bindings = <
             &kp ESC   &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
             &kp TAB   &kp F5  &kp F6   &kp F7   &kp F8     &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &kp K_VOL_UP
-            &kp CAPS  &kp F9  &kp F10  &kp F10  &kp F12    &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp K_MUTE  &kp K_VOL_DN
+            &kp CAPS  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp K_MUTE  &kp K_VOL_DN
                                        &kp N3   &kp SPACE  &trans      &trans
             >;
         };
