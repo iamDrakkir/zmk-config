@@ -70,10 +70,10 @@
 #define SE_LBRC  RA(N7)      // {
 #define SE_RBRC  RA(N0)      // }
 #define SE_PLUS  MINUS       // +
-#define SE_DASH  FSLH        // -
+#define SE_MINUS FSLH        // -
 #define SE_EQUAL LS(N0)      // =
 #define SE_QMARK LS(SE_PLUS) // ?
-#define SE_UNDER LS(SE_DASH) // _
+#define SE_UNDER LS(SE_MINUS)// _
 #define SE_DQT   LS(N2)      // "
 #define SE_SQT   BSLH        // '
 #define SE_GRAVE PLUS        // ´
