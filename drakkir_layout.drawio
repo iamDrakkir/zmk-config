@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T21:36:14.598Z" agent="5.0 (X11)" etag="dzRUozRdPiUXpL_mP5_E" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T21:38:11.930Z" agent="5.0 (X11)" etag="QmyTIrJrriyvCxcl5dk6" version="20.8.20" type="github">
   <diagram name="Gaming" id="bxgiygMoMi77h8SDAmmC">
     <mxGraphModel dx="1185" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="LT-kfasHor7iDB0tDRMl-55" value="Å" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="LT-kfasHor7iDB0tDRMl-1" vertex="1">
           <mxGeometry x="638" y="418" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LT-kfasHor7iDB0tDRMl-56" value="-" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;strokeColor=#050505;" parent="LT-kfasHor7iDB0tDRMl-1" vertex="1">
+        <mxCell id="LT-kfasHor7iDB0tDRMl-56" value="-" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="LT-kfasHor7iDB0tDRMl-1" vertex="1">
           <mxGeometry x="478" y="441" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LT-kfasHor7iDB0tDRMl-57" value="~" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#302316;fillColor=#FFB86C;rounded=1;strokeColor=#D79B00;" parent="LT-kfasHor7iDB0tDRMl-1" vertex="1">
