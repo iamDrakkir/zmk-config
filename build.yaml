@@ -21,6 +21,6 @@ include:
 
   # Urchin https://github.com/duckyb/zmk-urchin
   - board: nice_nano_v2
-    shield: urchin_left nice_view_adapter  nice_view
+    shield: urchin_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: urchin_right nice_view_adapter nice_view
