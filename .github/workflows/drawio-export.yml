@@ -17,14 +17,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - shell: bash
-        run: ls -la
       - name: Export drawio files to png files
         uses: rlespinasse/drawio-export-action@v2.x
         with:
           format: png
           transparent: true
-          output: "."
           remove-page-suffix: true
 
       - name: Get author and committer info from HEAD commit
