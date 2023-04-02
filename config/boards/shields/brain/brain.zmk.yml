@@ -1,0 +1,11 @@
+file_format: "1"
+id: brain
+name: brain
+type: shield
+url: https://github.com/duckyb/brain
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - brain_left
+  - brain_right
