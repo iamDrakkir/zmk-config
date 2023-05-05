@@ -25,7 +25,7 @@ include:
   - board: nice_nano_v2
     shield: urchin_right nice_view_adapter nice_view
 
-  # brain https://github.com/Wesztman/brain
+  # Brain https://github.com/Wesztman/brain
   - board: nice_nano_v2
     shield: brain_left #nice_view_adapter nice_view
   - board: nice_nano_v2

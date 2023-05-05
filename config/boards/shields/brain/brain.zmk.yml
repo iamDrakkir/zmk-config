@@ -2,7 +2,7 @@ file_format: "1"
 id: brain
 name: brain
 type: shield
-url: https://github.com/duckyb/brain
+url: https://github.com/Wesztman/brain
 requires: [pro_micro]
 features:
   - keys
