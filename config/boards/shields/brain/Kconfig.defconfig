@@ -5,7 +5,7 @@
 if SHIELD_BRAIN_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "brain"
+    default "Brain"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
