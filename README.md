@@ -1,5 +1,5 @@
 
-# Sweep layout
+# Sweep/Urchin layout
 ![image](https://github.com/iamDrakkir/zmk-config/blob/master/docs/export/sweep.png)
 
 # Brain layout
