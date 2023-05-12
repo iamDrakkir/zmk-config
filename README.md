@@ -34,9 +34,10 @@ It contains swedish characters and swedish symbol codes
 |  `@`   | At                           |    `W`    | None               |
 |  `(`   | Open or Left parenthesis     |    `J`    | None               |
 |  `)`   | Close or Right parenthesis   |    `L`    | None               |
-|  `~`   | Tilde                        |    `N`    | None               |
-|  `(`   | Open or Left parenthesis     |    `J`    | None               |
-|  `)`   | Close or Right parenthesis   |    `L`    | None               |
+|  `{`   | Open or Left brace           |    `K`    | None               |
+|  `}`   | Close or Right brace         |    `H`    | None               |
+|  `[`   | Open or Left bracket         |    `G`    | None               |
+|  `]`   | Close or Right bracket       |    `V`    | None               |
 |  `<`   | Less than                    |    `,`    | None               |
 |  `>`   | Greater than                 |    `:`    | None               |
 |  `;`   | Semicolon                    | baselayer | None               |
@@ -44,6 +45,7 @@ It contains swedish characters and swedish symbol codes
 |  `,`   | Comma                        | baselayer | None               |
 |  `.`   | Period, dot, or full stop    | baselayer | None               |
 |  `/`   | Slash or forward slash       | baselayer | None               |
+
 
 # TODO:
 
