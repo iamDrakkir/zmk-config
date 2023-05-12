@@ -50,6 +50,6 @@ It contains swedish characters and swedish symbol codes
 # TODO:
 
 - [x] Mnemonics in markdown instead of the picture
-- [] Finish layout for brain
-- [] Caps word [more info](https://getreuer.info/posts/keyboards/caps-word/index.html)
-- [] Caps number [more info](https://github.com/zmkfirmware/zmk/pull/1451)
+- [ ] Finish layout for brain
+- [ ] Caps word [more info](https://getreuer.info/posts/keyboards/caps-word/index.html)
+- [ ] Caps number [more info](https://github.com/zmkfirmware/zmk/pull/1451)
