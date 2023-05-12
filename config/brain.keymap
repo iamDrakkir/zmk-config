@@ -95,55 +95,55 @@
 
         default_layer {
             bindings = <
-                    &kp Q       &kp W       &kp F           &kp P         &kp B       &kp J   &kp L                 &kp U         &kp Y       &kp SE_AE
-            &kp N1  &hs LGUI A  &hm LALT R  &hm LSHIFT S    &hm LCTRL T   &kp G       &kp M   &hm RCTRL N           &hm RSHIFT E  &hm RALT I  &hs RGUI O  &kp SE_AA
-            &kp N2  &kp Z       &kp X       &kp C           &kp D         &kp V       &kp K   &kp H                 &kp COMMA     &kp DOT     &kp SE_OO   &kp ENTER
-                                            &lt NUMBER TAB  &kp SPACE     &kp N3      &kp DEL  &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
+                    &kp Q       &kp W       &kp F         &kp P           &kp B                        &kp J                 &kp L        &kp U         &kp Y       &kp SE_AE
+            &kp N1  &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G                        &kp M                 &hm RCTRL N  &hm RSHIFT E  &hm RALT I  &hs RGUI O  &kp SE_AA
+            &kp N2  &kp Z       &kp X       &kp C         &kp D           &kp V                        &kp K                 &kp H        &kp COMMA     &kp DOT     &kp SE_OO   &kp ENTER
+                                                          &lt NUMBER TAB  &kp SPACE  &kp N3   &kp DEL  &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
             >;
         };
 
         gaming_layer {
             bindings = <
-                   &kp N1      &kp N2  &kp N3  &kp N4     &kp N5     &kp J            &kp L        &kp U         &kp Y       &kp BSPC
-            &none  &kp TAB     &kp Q   &kp W   &kp E      &kp R      &kp M            &hm RCTRL N  &hm RSHIFT E  &hm RALT I  &hs RGUI O  &none
-            &none  &kp LSHIFT  &kp A   &kp S   &kp D      &kp F      &kp M            &kp N        &kp E         &kp I       &kp O       &none
-                                       &none   &kp LCTRL  &trans     &mo SYMBOLS_SWE  &mo FUNC     &none
+                   &kp N1      &kp N2  &kp N3  &kp N4  &kp N5                               &kp J     &kp L        &kp U         &kp Y       &kp BSPC
+            &none  &kp TAB     &kp Q   &kp W   &kp E   &kp R                                &kp M     &hm RCTRL N  &hm RSHIFT E  &hm RALT I  &hs RGUI O  &none
+            &none  &kp LSHIFT  &kp A   &kp S   &kp D   &kp F                                &kp M     &kp N        &kp E         &kp I       &kp O       &none
+                                               &none   &kp LCTRL  &trans   &mo SYMBOLS_SWE  &mo FUNC  &none
             >;
         };
 
         symbols_swe_layer {
             bindings = <
-                   &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH   &kp SE_LPAR   &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &none
-            &none  &hs LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_LBKT   &kp SE_MINUS  &hm RCTRL SE_TILDE  &hm RSHIFT SE_EQUAL  &hm RALT SE_PIPE  &kp RGUI  &none
-            &none  &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_RBKT   &kp SE_LBRC   &kp SE_RBRC         &kp SE_LT            &kp SE_GT         &none     &none
-                                                      &none               &kp SE_FSLH         &trans        &trans        &trans              &none
+                   &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH                   &kp SE_LPAR   &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &none
+            &none  &hs LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_LBKT                   &kp SE_MINUS  &hm RCTRL SE_TILDE  &hm RSHIFT SE_EQUAL  &hm RALT SE_PIPE  &kp RGUI  &none
+            &none  &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_RBKT                   &kp SE_LBRC   &kp SE_RBRC         &kp SE_LT            &kp SE_GT         &none     &none
+                                                                          &none               &kp SE_FSLH  &trans   &trans  &trans        &none
             >;
         };
 
         func_layer {
             bindings = <
-                   &none     &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
-            &none  &none     &kp F5  &kp F6   &kp F7   &kp F8     &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &none    &kp C_VOL_UP
-            &none  &kp CAPS  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp K_MUTE  &none    &kp C_VOL_DN
-                                     &none    &trans   &trans     &trans      &trans     &none
+                   &none     &kp F1  &kp F2   &kp F3   &kp F4                    &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
+            &none  &none     &kp F5  &kp F6   &kp F7   &kp F8                    &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &none    &kp C_VOL_UP
+            &none  &kp CAPS  &kp F9  &kp F10  &kp F11  &kp F12                   &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp K_MUTE  &none    &kp C_VOL_DN
+                                              &none    &trans   &trans   &trans  &trans      &none
             >;
         };
 
         number_layer {
             bindings = <
-                   &kp N1       &kp N2      &kp N3         &kp N4        &kp N5        &kp N6        &kp N7        &kp N8         &kp N9       &kp N0
-            &none  &hs LGUI  N6 &hm LALT N7 &hm LSHIFT N8  &hm LCTRL N9  &kp N0        &kp SE_MINUS  &hm RCTRL N4  &hm RSHIFT N5  &hm RALT N6  &hm RGUI COMMA  &none
-            &none  &none        &none       &none          &none         &kp SE_EQUAL  &kp SE_PLUS   &kp N1        &kp N2         &kp N3       &kp DOT         &none
-                                            &none          &trans        &trans        &trans        &none         &kp N0
+                   &kp N1       &kp N2      &kp N3         &kp N4        &kp N5                         &kp N6        &kp N7        &kp N8         &kp N9       &kp N0
+            &none  &hs LGUI  N6 &hm LALT N7 &hm LSHIFT N8  &hm LCTRL N9  &kp N0                         &kp SE_MINUS  &hm RCTRL N4  &hm RSHIFT N5  &hm RALT N6  &hm RGUI COMMA  &none
+            &none  &none        &none       &none          &none         &kp SE_EQUAL                   &kp SE_PLUS   &kp N1        &kp N2         &kp N3       &kp DOT         &none
+                                                           &none         &trans        &trans   &trans  &none         &kp N0
             >;
         };
 
         settings_layer {
             bindings = <
-                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &ext_power EP_ON  &ext_power EP_OFF  &none  &none       &none
-            &none  &bt BT_CLR    &none         &none         &none         &none          &none             &to DEFAULT        &none  &to GAMING  &none  &none
-            &none  &out OUT_BLE  &out OUT_USB  &none         &none         &bootloader    &bootloader       &none              &none  &none       &none  &trans
-                                               &none         &trans        &trans         &trans            &trans             &none
+                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &ext_power EP_ON  &ext_power EP_OFF  &none  &none       &none
+            &none  &bt BT_CLR    &none         &none         &none         &none                          &none             &to DEFAULT        &none  &to GAMING  &none  &none
+            &none  &out OUT_BLE  &out OUT_USB  &none         &none         &bootloader                    &bootloader       &none              &none  &none       &none  &trans
+                                                             &none         &trans        &trans   &trans  &trans            &none
             >;
         };
     };
