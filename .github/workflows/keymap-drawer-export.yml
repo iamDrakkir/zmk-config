@@ -30,7 +30,7 @@ jobs:
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "CI: Sync draw.io exported files"
+          commit_message: "CI: Sync keymap drawer exported files"
           commit_user_name: "${{ env.GIT_COMMIT_COMMITTER_NAME }}"
           commit_user_email: "${{ env.GIT_COMMIT_COMMITTER_EMAIL }}"
           commit_author: "${{ env.GIT_COMMIT_AUTHOR }}"
