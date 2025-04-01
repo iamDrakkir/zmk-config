@@ -20,7 +20,7 @@ jobs:
 
       - name: Generate svg
         run: |
-          keymap draw keymap.yaml -d config/boards/shields/brain/brain.dtsi >docs/export/brain.svg
+          keymap draw keymap.yaml -d config/boards/shields/brain/brain-layout.dtsi >docs/export/brain.svg
           rm keymap.yaml
 
       - name: Get author and committer info from HEAD commit
